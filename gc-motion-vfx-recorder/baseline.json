@@ -1,0 +1,10 @@
+{
+  "version": "6.8",
+  "build": "2026-11-16-uppercut-fallback-01",
+  "sourceFile": "GC_MotionVFX_Baker_v6_8.txt",
+  "sha256Original": "1584357a65baa5dc77aa7ffd3a203cb713e622a4af56d9de11bd7e4295ca6014",
+  "sha256Normalized": "1584357a65baa5dc77aa7ffd3a203cb713e622a4af56d9de11bd7e4295ca6014",
+  "normalizedBytes": 160963,
+  "lineCount": 2872,
+  "packagedOn": "2026-11-19"
+}
