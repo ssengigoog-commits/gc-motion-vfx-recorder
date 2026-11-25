@@ -1,0 +1,30 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
+import { assemble, root } from '../scripts/lib.mjs';
+
+test('v6.9 keeps legacy ANIM VFX capture preview exporters and adds bounded inspector', async () => {
+  const { source, manifest } = await assemble();
+  assert.equal(manifest.output, 'dist/GC_MotionVFX_Baker_v6_9.luau');
+  assert.match(source, /MAX_SECONDS=120/);
+  assert.match(source, /INSPECT_FPS=10/);
+  assert.match(source, /INSPECT_MAX_ACTORS=4/);
+  assert.match(source, /INSPECT_MAX_FRAMES=1200/);
+  assert.match(source, /qualityBtn=btn/);
+  assert.match(source, /if mode~='ANIM' and mode~='VFX' and mode~='INSPECT'/);
+  assert.match(source, /Core\.inspectBegin\(t\)/);
+  assert.match(source, /Core\.inspectSample\(t,ts\)/);
+  assert.match(source, /Core\.inspectFinish\(t\)/);
+  assert.match(source, /Core\.studioImporter/);
+  assert.match(source, /Core\.studioVfxImporter/);
+  assert.match(source, /Core\.playSelection\('ANIM'/);
+  assert.match(source, /Core\.playSelection\('VFX'/);
+  assert.match(source, /Core\.startRecord\('INSPECT'\)/);
+  assert.match(source, /Core\.saveHistory\(\)/);
+  assert.match(source, /Core\.safeDelete/);
+  assert.match(source, /Core\.inspectEffect\(obj,now\(recording\),'add'\)/);
+  assert.match(source, /Core\.inspectToggle\(target\)/);
+  assert.doesNotMatch(source, /loadstring\s*\(/);
+  assert.doesNotMatch(source, /getscriptbytecode/);
+});

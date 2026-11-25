@@ -1,0 +1,12 @@
+{
+  "stage": "feature-release-static-validation",
+  "runtimeVersion": "6.9",
+  "repositoryVersion": "0.2.0",
+  "runtimeBehaviorChanged": true,
+  "durationSeconds": 120,
+  "lagOptimizationsImplemented": false,
+  "newRecordingFeaturesImplemented": true,
+  "inspectorMode": "client-readable actor, joint, animation, combat-state, input, effect/audio events",
+  "liveRobloxVerified": false,
+  "upgrades": "docs/UPGRADES.md"
+}
