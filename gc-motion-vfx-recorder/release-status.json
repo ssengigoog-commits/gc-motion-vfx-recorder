@@ -1,9 +1,0 @@
-{
-  "stage": "baseline-packaging",
-  "runtimeVersion": "6.8",
-  "repositoryVersion": "0.1.0",
-  "runtimeBehaviorChanged": false,
-  "lagOptimizationsImplemented": false,
-  "newRecordingFeaturesImplemented": false,
-  "upgrades": "docs/UPGRADES.md"
-}
