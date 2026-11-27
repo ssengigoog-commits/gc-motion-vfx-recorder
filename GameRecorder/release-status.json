@@ -1,9 +1,0 @@
-{
-  "version": "7.0.2",
-  "stage": "loader-packaging-repair-static-validation",
-  "buildStatus": "passed",
-  "nodeTests": 9,
-  "liveRobloxTest": false,
-  "nativeLuauCompilerTest": false,
-  "notes": "F3 now captures Highlight initial/added/changed/removed events with color, transparency, depth mode and target metadata. Static-only verification. F9/F10/F12 unused. Loader diagnostics and nested path fallback added; runtime not verified."
-}
