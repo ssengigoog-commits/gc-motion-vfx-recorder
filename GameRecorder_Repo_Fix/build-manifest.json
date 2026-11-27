@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "output": "dist/GC_MotionVFX_Baker_v7_1_2.luau",
+  "sources": [
+    {
+      "path": "src/01-bootstrap.luau",
+      "originalLines": [
+        1,
+        190
+      ]
+    },
+    {
+      "path": "src/02-motion.luau",
+      "originalLines": [
+        191,
+        507
+      ]
+    },
+    {
+      "path": "src/03-vfx-groups.luau",
+      "originalLines": [
+        508,
+        1195
+      ]
+    },
+    {
+      "path": "src/03a-inspector.luau",
+      "new": true
+    },
+    {
+      "path": "src/03b-game.luau",
+      "new": true
+    },
+    {
+      "path": "src/04-capture.luau",
+      "originalLines": [
+        1196,
+        1348
+      ]
+    },
+    {
+      "path": "src/05-preview.luau",
+      "originalLines": [
+        1349,
+        1624
+      ]
+    },
+    {
+      "path": "src/06-studio-export.luau",
+      "originalLines": [
+        1625,
+        2462
+      ]
+    },
+    {
+      "path": "src/07-interface.luau",
+      "originalLines": [
+        2463,
+        2872
+      ]
+    }
+  ]
+}

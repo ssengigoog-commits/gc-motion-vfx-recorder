@@ -1,0 +1,12 @@
+{
+  "version": "7.1.2",
+  "stage": "offline-automatic-radius-validated",
+  "buildStatus": "passed",
+  "liveRobloxTest": false,
+  "nativeLuauCompilerTest": true,
+  "notes": "No actor picker. Automatic60-stud NPC/player capture honors Settings;1Hz recording-only discovery,32actor budget inclself; prior idle-lag fixes retained.",
+  "nodeTests": 38,
+  "offlineUIConstructionTest": true,
+  "visualReview": "ImageGen reference and three native-construction mock previews; not a live Player screenshot",
+  "package": "current-only, five-line LOADER.txt"
+}
