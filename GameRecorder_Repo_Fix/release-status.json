@@ -1,0 +1,12 @@
+{
+  "version": "7.1.4",
+  "stage": "offline-selected-playback-validated",
+  "buildStatus": "passed",
+  "liveRobloxTest": false,
+  "nativeLuauCompilerTest": true,
+  "notes": "One selected-recording Play button. Motion previews motion; VFX previews effects; GAME previews both using one clock and origin. Idle performance and F3-only actor settings preserved.",
+  "nodeTests": 44,
+  "offlineUIConstructionTest": true,
+  "visualReview": "ImageGen reference and three native-construction mock previews; not a live Player screenshot",
+  "package": "current-only, five-line LOADER.txt"
+}
