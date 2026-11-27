@@ -1,0 +1,12 @@
+{
+  "version": "7.1.3",
+  "stage": "offline-game-only-actors-validated",
+  "buildStatus": "passed",
+  "liveRobloxTest": false,
+  "nativeLuauCompilerTest": true,
+  "notes": "Actor toggles apply only to F3 GAME; F3 records VFX independently of those toggles. Other modes do not discover NPC/player actors. Prior idle-lag fixes retained.",
+  "nodeTests": 40,
+  "offlineUIConstructionTest": true,
+  "visualReview": "ImageGen reference and three native-construction mock previews; not a live Player screenshot",
+  "package": "current-only, five-line LOADER.txt"
+}
