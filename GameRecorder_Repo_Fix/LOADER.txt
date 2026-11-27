@@ -1,5 +1,0 @@
-assert(type(loadstring)=="function", "[GC] loadstring unavailable")
-local ok, source=pcall(function() return game:HttpGet("https://raw.githubusercontent.com/ssengigoog-commits/gc-motion-vfx-recorder/main/GameRecorder_Repo_Fix/dist/GC_MotionVFX_Baker_v7_1_0.luau") end); assert(ok, source)
-assert(type(source)=="string" and source:find("Core.RECORDER_VERSION='7.1.0'",1,true), "[GC] Wrong or missing recorder download")
-local run, err=loadstring(source); assert(type(run)=="function", err or "[GC] Compilation failed")
-run()
