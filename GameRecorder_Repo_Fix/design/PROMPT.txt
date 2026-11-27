@@ -1,0 +1,1 @@
+Built-in ImageGen UI mockup: restrained dark slate and emerald native Roblox recorder window, GRAND CLOVER / Recorder header, Capture/Library/Settings sidebar, three Game/Motion/VFX mode tiles, large timer, Start recording, Choose actors, independent Other players and NPCs switches, subject summary and quality card. Implement with native controls, not a raster UI upload.
