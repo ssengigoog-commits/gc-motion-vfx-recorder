@@ -1,0 +1,22 @@
+GRAND CLOVER MOTION / VFX / GAME RECORDER v7.0.2
+
+F6  Start/stop motion + animation take
+F8  Start/stop grouped VFX take
+F3  Start/stop combined GAME take (motion + VFX + actors + game data)
+F7  Toggle recorder interface
+
+Max recording length: 120 seconds.
+F3 captures: motion/joints (up to 30Hz), VFX groups (15Hz), four selected actors (10Hz), camera/HUD/game state (5Hz), audio and relevant state/input events.
+
+Select GAME > CHOOSE ACTORS before recording; the local actor is selected automatically if none is chosen.
+Use COPY RAW on the selected GAME take to export the unified timestamped JSON.
+PLAY MOTION GHOST and PLAY VFX AHEAD can play the GAME take's two tracks independently.
+EXPORT STUDIO writes motion importer; VFX STUDIO writes grouped VFX importer on a GAME take.
+Delete old takes with DELETE in the library. Original v6.8 and v6.9 scripts remain archived.
+
+Only client-visible, bounded observations; no private scripts, remote payloads or server-only code.
+If data is too big, record a shorter scene. No actual Roblox runtime test has been completed.
+
+F3 HIGHLIGHTS: initial, add, changed, removed metadata for client-visible highlights.
+Visual properties include Enabled, FillColor, FillTransparency, OutlineColor, OutlineTransparency, DepthMode and Adornee.
+See `game.highlights` in COPY RAW JSON. Highlight playback is not yet integrated into VFX preview.

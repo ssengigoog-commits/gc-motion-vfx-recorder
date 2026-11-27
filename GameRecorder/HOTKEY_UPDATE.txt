@@ -1,0 +1,18 @@
+GC MOTION/VFX/GAME RECORDER v7.0.2
+
+F3 = Start/stop combined Game Recorder (previously F9)
+F6 = Motion recording
+F8 = VFX recording
+F7 = Show/hide interface
+F9 = no binding
+F10 = no binding
+F12 = no binding
+
+F3 now also records Highlight states and changes (colors, transparency, depth mode, target).
+
+Max recording duration: 120 seconds. All existing recording/export features preserved.
+
+Upload repository ZIP contents to the root of your public GitHub repository.
+After commit, use executor/one_line_loader.lua. No GitHub changes were made automatically.
+
+Not yet live-tested in Roblox Player.
