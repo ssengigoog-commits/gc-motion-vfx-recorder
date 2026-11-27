@@ -1,0 +1,12 @@
+{
+  "version": "7.1.5",
+  "stage": "offline-visible-actor-preview-validated",
+  "buildStatus": "passed",
+  "liveRobloxTest": false,
+  "nativeLuauCompilerTest": true,
+  "notes": "Game previews recorded NPC/player bodies with overhead names; local username is saved for Motion/Game recordings. Actor root/limb poses and body dimensions added. Opaque ghost limbs; old missing-facing captures approximate. Prior playback/capture/idle fixes retained.",
+  "nodeTests": 48,
+  "offlineUIConstructionTest": true,
+  "visualReview": "ImageGen reference and three native-construction mock previews; not a live Player screenshot",
+  "package": "current-only, five-line LOADER.txt"
+}
