@@ -1,3 +1,0 @@
-ui-reference.png: original built-in ImageGen reference.
-ui-*-constructed.png: renderings of the actual Luau UI construction tree in the offline test model. These use fixture actor names and are NOT live Roblox Player screenshots.
-Native glyphs, proportional layout, key badges, slider switches, typography, header, sidebar and footer follow the ImageGen reference.
