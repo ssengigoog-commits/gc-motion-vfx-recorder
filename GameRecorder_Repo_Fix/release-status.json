@@ -1,0 +1,12 @@
+{
+  "version": "7.1.0",
+  "stage": "offline-ui-settings-validated",
+  "buildStatus": "passed",
+  "liveRobloxTest": false,
+  "nativeLuauCompilerTest": true,
+  "notes": "ImageGen-guided native UI; persistent independent NPC/player filters; bounded automatic/manual selection. Exact live Roblox Player UI acceptance remains pending.",
+  "nodeTests": 28,
+  "offlineUIConstructionTest": true,
+  "visualReview": "ImageGen reference and three native-construction mock previews; not a live Player screenshot",
+  "package": "current-only, five-line LOADER.txt"
+}
